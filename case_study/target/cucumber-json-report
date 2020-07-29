@@ -1,0 +1,573 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# Registeration Validation"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 320647100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the browser is launched",
+            "match": {
+              "location": "Registration.the_browser_is_launched()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12726105300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "to validate registration step and confirm acknowledgement msg",
+        "description": "",
+        "id": "to-validate-registration;to-validate-registration-step-and-confirm-acknowledgement-msg",
+        "after": [
+          {
+            "result": {
+              "duration": 957172200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2509178800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user clicks the signup",
+            "match": {
+              "location": "Registration.the_user_clicks_the_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28825300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "take the user to \"signup\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "signup",
+                  "offset": 18
+                }
+              ],
+              "location": "Registration.take_the_user_to_page(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1417174300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user enters the mandatory details",
+            "match": {
+              "location": "Registration.the_user_enters_the_mandatory_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Firstname",
+                  "LastName",
+                  "Email",
+                  "Username",
+                  "Pass",
+                  "Confirm_Password"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "NM63",
+                  "LM63",
+                  "EM63@GMAIL.COM",
+                  "U63",
+                  "PASS63",
+                  "PASS63"
+                ],
+                "line": 13
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2513240800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click on the register button",
+            "match": {
+              "location": "Registration.click_on_the_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6619100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "take the user to \"signup\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "signup",
+                  "offset": 18
+                }
+              ],
+              "location": "Registration.take_the_user_to_page(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 83343300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "confirm the acknowledgement message",
+            "match": {
+              "location": "Registration.confirm_the_acknowledgement_message()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 30232300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the browser is launched",
+            "match": {
+              "location": "Registration.the_browser_is_launched()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10698017800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "to validate Profile Details Matches with Registered User",
+        "description": "",
+        "id": "to-validate-registration;to-validate-profile-details-matches-with-registered-user",
+        "after": [
+          {
+            "result": {
+              "duration": 965665600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2513030100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user clicks the signup",
+            "match": {
+              "location": "Registration.the_user_clicks_the_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16055100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "take the user to \"signup\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "signup",
+                  "offset": 18
+                }
+              ],
+              "location": "Registration.take_the_user_to_page(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1119921000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user enters the mandatory details",
+            "match": {
+              "location": "Registration.the_user_enters_the_mandatory_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Firstname",
+                  "LastName",
+                  "Email",
+                  "Username",
+                  "Pass",
+                  "Confirm_Password"
+                ],
+                "line": 22
+              },
+              {
+                "cells": [
+                  "NM64",
+                  "LM64",
+                  "EM64@GMAIL.COM",
+                  "U64",
+                  "PASS64",
+                  "PASS64"
+                ],
+                "line": 23
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2271544700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "click on the register button",
+            "match": {
+              "location": "Registration.click_on_the_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5838300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "take the user to \"signup\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "signup",
+                  "offset": 18
+                }
+              ],
+              "location": "Registration.take_the_user_to_page(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 171182400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "click the profile icon",
+            "match": {
+              "location": "Registration.click_the_profile_icon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 116771500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Validate the firstname, lastname and email",
+            "match": {
+              "location": "Registration.validate_the_firstname_lastname_and_email()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 43048200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the browser is launched",
+            "match": {
+              "location": "Registration.the_browser_is_launched()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10884066700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "to validate Mailer Function using DB after signup",
+        "description": "",
+        "id": "to-validate-registration;to-validate-mailer-function-using-db-after-signup",
+        "after": [
+          {
+            "result": {
+              "duration": 986173600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2749919400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the user clicks the signup",
+            "match": {
+              "location": "Registration.the_user_clicks_the_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14307900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "take the user to \"signup\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "signup",
+                  "offset": 18
+                }
+              ],
+              "location": "Registration.take_the_user_to_page(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1834509100,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the user enters the mandatory details and store in DB",
+            "match": {
+              "location": "Registration.the_user_enters_the_mandatory_details_storedb(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Firstname",
+                  "LastName",
+                  "Email",
+                  "Username",
+                  "Pass",
+                  "Confirm_Password"
+                ],
+                "line": 33
+              },
+              {
+                "cells": [
+                  "SAMUEL",
+                  "LM65",
+                  "EM65@GMAIL.COM",
+                  "U65",
+                  "PASS65",
+                  "PASS65"
+                ],
+                "line": 34
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1759243800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "click on the register button",
+            "match": {
+              "location": "Registration.click_on_the_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12722500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "take the user to \"signup\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "signup",
+                  "offset": 18
+                }
+              ],
+              "location": "Registration.take_the_user_to_page(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 179374400,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "click the profile icon",
+            "match": {
+              "location": "Registration.click_the_profile_icon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2576612100,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "clicks the Inbox link",
+            "match": {
+              "location": "Registration.clicks_the_Inbox_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54200,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "take the user to \"Inbox\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Inbox",
+                  "offset": 18
+                }
+              ],
+              "location": "Registration.take_the_user_to_page(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2196768400,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "clicks compose button",
+            "match": {
+              "location": "Registration.clicks_compose_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35883235900,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "the user is taken to compose mail template",
+            "match": {
+              "location": "Registration.the_user_is_taken_to_compose_mail_template()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "to validate registration",
+    "description": "",
+    "id": "to-validate-registration",
+    "keyword": "Feature",
+    "uri": "Register.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@sanity"
+      }
+    ]
+  }
+]
